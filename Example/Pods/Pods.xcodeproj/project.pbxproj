@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1226FF21723A37F8398A57C4BD74D225 /* AYPaging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 479F5816DA60533AA3976AB3BB2D45CE /* AYPaging-dummy.m */; };
+		13B61FA261BFD06A972ED0440352D4EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		402C391823700E28005AF74F /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C391523700E28005AF74F /* CALayer.swift */; };
+		402C391923700E28005AF74F /* AYPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C391723700E28005AF74F /* AYPagingView.swift */; };
+		7960B0D1503027CAF74C278C703CF8BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		94BDF42C2DDF754519052C5E9C1293CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A3CEBE31BD79B3533BFF5E1C80FE3436 /* Pods-AYPaging_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D86CCBB96904DC32B760FE7B79CF3C4 /* Pods-AYPaging_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABB8441A1EAC9AD68CB316FF2B951B2F /* Pods-AYPaging_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E79CC7B978A91D49B8641216B4604582 /* Pods-AYPaging_Example-dummy.m */; };
+		B16A253FA1124C3A184CF5AF58FC0634 /* AYPaging-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B519A5F4B3E5594D07F0B4699F91EF /* AYPaging-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C34097AD431CE57713F9DFFDA1D25346 /* Pods-AYPaging_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 292859CEE676BAECD811523132849CC8 /* Pods-AYPaging_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7F2B8B2F81C8D69F33C80A6C5215D94 /* Pods-AYPaging_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3098B2F8919DBF867A8D9850850A8ACF /* Pods-AYPaging_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A50F7204BCD9F29DB2702D28CD40A6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C3732111F1D866842C3DB7DC00CAF1;
+			remoteInfo = "Pods-AYPaging_Example";
+		};
+		ACDD2920E3D77CC33CD11E0C025F700F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D97680A75D6BFD94357C333A1A1F4C;
+			remoteInfo = AYPaging;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B2A067B5047639A24F819ADD7897126 /* AYPaging.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AYPaging.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		153E007051B5F64777FDEBE0106842D5 /* AYPaging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AYPaging.modulemap; sourceTree = "<group>"; };
+		177184AAD3EBA845D6FCB99F118E7152 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		214A347158C7B6DF48B00273736F4F06 /* Pods-AYPaging_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYPaging_Tests-Info.plist"; sourceTree = "<group>"; };
+		292859CEE676BAECD811523132849CC8 /* Pods-AYPaging_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYPaging_Example-umbrella.h"; sourceTree = "<group>"; };
+		2DBE0F3ABB77DE49549CFC1C1097D618 /* AYPaging-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AYPaging-Info.plist"; sourceTree = "<group>"; };
+		3098B2F8919DBF867A8D9850850A8ACF /* Pods-AYPaging_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYPaging_Tests-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		348DBFBC793B51E281B3015FA24191FE /* AYPaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYPaging.xcconfig; sourceTree = "<group>"; };
+		3D86CCBB96904DC32B760FE7B79CF3C4 /* Pods-AYPaging_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYPaging_Tests-umbrella.h"; sourceTree = "<group>"; };
+		402C391523700E28005AF74F /* CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		402C391723700E28005AF74F /* AYPagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPagingView.swift; sourceTree = "<group>"; };
+		43FE06670564C6DF2A9263CB173F7441 /* Pods_AYPaging_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYPaging_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		479F5816DA60533AA3976AB3BB2D45CE /* AYPaging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYPaging-dummy.m"; sourceTree = "<group>"; };
+		4A77F885C0ABDC62D5EB4684DD370485 /* Pods-AYPaging_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYPaging_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		57D5229E88F3A2F1D5A229085F714E66 /* Pods-AYPaging_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYPaging_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5942E903DDAB83788686089D71DFC0C7 /* Pods-AYPaging_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYPaging_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		62B519A5F4B3E5594D07F0B4699F91EF /* AYPaging-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYPaging-umbrella.h"; sourceTree = "<group>"; };
+		62E55D40C5ECA27CF2F522CDF52C87F8 /* Pods-AYPaging_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYPaging_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7900F6BC68B83A733D1C5DC22297374A /* Pods-AYPaging_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYPaging_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7F26269C3CC17672479621DD111DF00B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		92011D414DFD9EF8824B211C5B069605 /* Pods-AYPaging_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYPaging_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92D39A061C0C7D8D968B01B4BDDFEE2C /* Pods-AYPaging_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYPaging_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F77D8DBCFDF6EF8731E62E4B6F7DAED /* AYPaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYPaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD9866505DECB1F6BDEF1CCC10C3998 /* AYPaging-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYPaging-prefix.pch"; sourceTree = "<group>"; };
+		B97A0BFA8D315E6B95F0B1C940B6D0EF /* Pods-AYPaging_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYPaging_Example.modulemap"; sourceTree = "<group>"; };
+		BCF22E19AFCA4B0DDAD37DACDD48BF5D /* Pods-AYPaging_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYPaging_Example-Info.plist"; sourceTree = "<group>"; };
+		BF62FE93F7060A5DE8D90BC6DE48558D /* Pods-AYPaging_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYPaging_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2D851E371C969256E7C951B7BD763EB /* Pods-AYPaging_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYPaging_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFA32DF745A625D8E2003E5F4BA70911 /* Pods-AYPaging_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYPaging_Tests.modulemap"; sourceTree = "<group>"; };
+		E79CC7B978A91D49B8641216B4604582 /* Pods-AYPaging_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYPaging_Example-dummy.m"; sourceTree = "<group>"; };
+		EE7F7FB18DBA2EF0B25D3CADE877CF30 /* Pods_AYPaging_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYPaging_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BC32E523A1FD0D4BA5C2F810BEC606F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7960B0D1503027CAF74C278C703CF8BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F10D6302FF52A0B1516853BC0B123B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BDF42C2DDF754519052C5E9C1293CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4974C3F6CACEF50577E4654645F6115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B61FA261BFD06A972ED0440352D4EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		174D7F5FD8F9EEBE61B5FED21789489A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45D2FC81C0AD5C622ABBFDEB21C2140C /* AYPaging */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		17CB1B547F00C824FB52A13986887D8F /* Pods-AYPaging_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA32DF745A625D8E2003E5F4BA70911 /* Pods-AYPaging_Tests.modulemap */,
+				57D5229E88F3A2F1D5A229085F714E66 /* Pods-AYPaging_Tests-acknowledgements.markdown */,
+				C2D851E371C969256E7C951B7BD763EB /* Pods-AYPaging_Tests-acknowledgements.plist */,
+				3098B2F8919DBF867A8D9850850A8ACF /* Pods-AYPaging_Tests-dummy.m */,
+				214A347158C7B6DF48B00273736F4F06 /* Pods-AYPaging_Tests-Info.plist */,
+				3D86CCBB96904DC32B760FE7B79CF3C4 /* Pods-AYPaging_Tests-umbrella.h */,
+				BF62FE93F7060A5DE8D90BC6DE48558D /* Pods-AYPaging_Tests.debug.xcconfig */,
+				7900F6BC68B83A733D1C5DC22297374A /* Pods-AYPaging_Tests.release.xcconfig */,
+			);
+			name = "Pods-AYPaging_Tests";
+			path = "Target Support Files/Pods-AYPaging_Tests";
+			sourceTree = "<group>";
+		};
+		24934FA020CF35F7FA2893A89A418800 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0B2A067B5047639A24F819ADD7897126 /* AYPaging.podspec */,
+				7F26269C3CC17672479621DD111DF00B /* LICENSE */,
+				177184AAD3EBA845D6FCB99F118E7152 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		402C391423700E28005AF74F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				402C391523700E28005AF74F /* CALayer.swift */,
+			);
+			name = Extensions;
+			path = AYPaging/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		402C391623700E28005AF74F /* AYPagingView */ = {
+			isa = PBXGroup;
+			children = (
+				402C391723700E28005AF74F /* AYPagingView.swift */,
+			);
+			name = AYPagingView;
+			path = AYPaging/Classes/AYPagingView;
+			sourceTree = "<group>";
+		};
+		45D2FC81C0AD5C622ABBFDEB21C2140C /* AYPaging */ = {
+			isa = PBXGroup;
+			children = (
+				402C391423700E28005AF74F /* Extensions */,
+				402C391623700E28005AF74F /* AYPagingView */,
+				24934FA020CF35F7FA2893A89A418800 /* Pod */,
+				A115ACB2FC162A7DEC63522BFADDA88B /* Support Files */,
+			);
+			name = AYPaging;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		654F8E2D9DA207516233F445E321021D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82E3AE35710C1CAC0078053A258CDB25 /* Pods-AYPaging_Example */,
+				17CB1B547F00C824FB52A13986887D8F /* Pods-AYPaging_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6B96B7DED2148D680AFDC1252AD9D42B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F77D8DBCFDF6EF8731E62E4B6F7DAED /* AYPaging.framework */,
+				43FE06670564C6DF2A9263CB173F7441 /* Pods_AYPaging_Example.framework */,
+				EE7F7FB18DBA2EF0B25D3CADE877CF30 /* Pods_AYPaging_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82E3AE35710C1CAC0078053A258CDB25 /* Pods-AYPaging_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B97A0BFA8D315E6B95F0B1C940B6D0EF /* Pods-AYPaging_Example.modulemap */,
+				92011D414DFD9EF8824B211C5B069605 /* Pods-AYPaging_Example-acknowledgements.markdown */,
+				5942E903DDAB83788686089D71DFC0C7 /* Pods-AYPaging_Example-acknowledgements.plist */,
+				E79CC7B978A91D49B8641216B4604582 /* Pods-AYPaging_Example-dummy.m */,
+				62E55D40C5ECA27CF2F522CDF52C87F8 /* Pods-AYPaging_Example-frameworks.sh */,
+				BCF22E19AFCA4B0DDAD37DACDD48BF5D /* Pods-AYPaging_Example-Info.plist */,
+				292859CEE676BAECD811523132849CC8 /* Pods-AYPaging_Example-umbrella.h */,
+				4A77F885C0ABDC62D5EB4684DD370485 /* Pods-AYPaging_Example.debug.xcconfig */,
+				92D39A061C0C7D8D968B01B4BDDFEE2C /* Pods-AYPaging_Example.release.xcconfig */,
+			);
+			name = "Pods-AYPaging_Example";
+			path = "Target Support Files/Pods-AYPaging_Example";
+			sourceTree = "<group>";
+		};
+		A115ACB2FC162A7DEC63522BFADDA88B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				153E007051B5F64777FDEBE0106842D5 /* AYPaging.modulemap */,
+				348DBFBC793B51E281B3015FA24191FE /* AYPaging.xcconfig */,
+				479F5816DA60533AA3976AB3BB2D45CE /* AYPaging-dummy.m */,
+				2DBE0F3ABB77DE49549CFC1C1097D618 /* AYPaging-Info.plist */,
+				AFD9866505DECB1F6BDEF1CCC10C3998 /* AYPaging-prefix.pch */,
+				62B519A5F4B3E5594D07F0B4699F91EF /* AYPaging-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AYPaging";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				174D7F5FD8F9EEBE61B5FED21789489A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6B96B7DED2148D680AFDC1252AD9D42B /* Products */,
+				654F8E2D9DA207516233F445E321021D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18F5AD8C35112A585E14392B97D69993 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34097AD431CE57713F9DFFDA1D25346 /* Pods-AYPaging_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5E462213131F817CAE6FF98B957168 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CEBE31BD79B3533BFF5E1C80FE3436 /* Pods-AYPaging_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A566A2416F077405D8E5FD398AA06D80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16A253FA1124C3A184CF5AF58FC0634 /* AYPaging-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07D97680A75D6BFD94357C333A1A1F4C /* AYPaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80384D68806132D9CF1F1F279999FBA1 /* Build configuration list for PBXNativeTarget "AYPaging" */;
+			buildPhases = (
+				A566A2416F077405D8E5FD398AA06D80 /* Headers */,
+				A95DDAB819923497CA7BC690B34B3F1D /* Sources */,
+				2BC32E523A1FD0D4BA5C2F810BEC606F /* Frameworks */,
+				570FD71D618D6E673061D680AEBC07F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYPaging;
+			productName = AYPaging;
+			productReference = 9F77D8DBCFDF6EF8731E62E4B6F7DAED /* AYPaging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40C3732111F1D866842C3DB7DC00CAF1 /* Pods-AYPaging_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A79DE21FDB384244CD443BA094F1A0 /* Build configuration list for PBXNativeTarget "Pods-AYPaging_Example" */;
+			buildPhases = (
+				18F5AD8C35112A585E14392B97D69993 /* Headers */,
+				59FDAB42F51D85B1DFB8D254BE35A947 /* Sources */,
+				D4974C3F6CACEF50577E4654645F6115 /* Frameworks */,
+				078789DF2BF1C8C3A3522B3D07D75178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1736C4975DD5C856B6C4D0A3C3D628 /* PBXTargetDependency */,
+			);
+			name = "Pods-AYPaging_Example";
+			productName = "Pods-AYPaging_Example";
+			productReference = 43FE06670564C6DF2A9263CB173F7441 /* Pods_AYPaging_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7FB778B07F0436AB7692A708EF2CA4E /* Pods-AYPaging_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAEDD664D2DD9B9E9D496D49D8F6E23 /* Build configuration list for PBXNativeTarget "Pods-AYPaging_Tests" */;
+			buildPhases = (
+				7B5E462213131F817CAE6FF98B957168 /* Headers */,
+				35683AAA4D3D54989615F99CB9DB5666 /* Sources */,
+				77F10D6302FF52A0B1516853BC0B123B /* Frameworks */,
+				78B653AB40FE0DBDBC22976D8839110D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA0EED71961ECA220E2BEDA6B191DF2 /* PBXTargetDependency */,
+			);
+			name = "Pods-AYPaging_Tests";
+			productName = "Pods-AYPaging_Tests";
+			productReference = EE7F7FB18DBA2EF0B25D3CADE877CF30 /* Pods_AYPaging_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6B96B7DED2148D680AFDC1252AD9D42B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D97680A75D6BFD94357C333A1A1F4C /* AYPaging */,
+				40C3732111F1D866842C3DB7DC00CAF1 /* Pods-AYPaging_Example */,
+				F7FB778B07F0436AB7692A708EF2CA4E /* Pods-AYPaging_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		078789DF2BF1C8C3A3522B3D07D75178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570FD71D618D6E673061D680AEBC07F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B653AB40FE0DBDBC22976D8839110D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35683AAA4D3D54989615F99CB9DB5666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F2B8B2F81C8D69F33C80A6C5215D94 /* Pods-AYPaging_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FDAB42F51D85B1DFB8D254BE35A947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB8441A1EAC9AD68CB316FF2B951B2F /* Pods-AYPaging_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95DDAB819923497CA7BC690B34B3F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402C391923700E28005AF74F /* AYPagingView.swift in Sources */,
+				1226FF21723A37F8398A57C4BD74D225 /* AYPaging-dummy.m in Sources */,
+				402C391823700E28005AF74F /* CALayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DA0EED71961ECA220E2BEDA6B191DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AYPaging_Example";
+			target = 40C3732111F1D866842C3DB7DC00CAF1 /* Pods-AYPaging_Example */;
+			targetProxy = A50F7204BCD9F29DB2702D28CD40A6B0 /* PBXContainerItemProxy */;
+		};
+		DB1736C4975DD5C856B6C4D0A3C3D628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AYPaging;
+			target = 07D97680A75D6BFD94357C333A1A1F4C /* AYPaging */;
+			targetProxy = ACDD2920E3D77CC33CD11E0C025F700F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A58C88F1E7CB52198AD84F026219C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A77F885C0ABDC62D5EB4684DD370485 /* Pods-AYPaging_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYPaging_Example/Pods-AYPaging_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYPaging_Example/Pods-AYPaging_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C7384D74D36752E897A111508278B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348DBFBC793B51E281B3015FA24191FE /* AYPaging.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYPaging/AYPaging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYPaging/AYPaging-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYPaging/AYPaging.modulemap";
+				PRODUCT_MODULE_NAME = AYPaging;
+				PRODUCT_NAME = AYPaging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4114EB45AD4E4EAEF8C03DBDC1417158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D39A061C0C7D8D968B01B4BDDFEE2C /* Pods-AYPaging_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYPaging_Example/Pods-AYPaging_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYPaging_Example/Pods-AYPaging_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5233A12B8910AF76145BBD31DF5D32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348DBFBC793B51E281B3015FA24191FE /* AYPaging.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYPaging/AYPaging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYPaging/AYPaging-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYPaging/AYPaging.modulemap";
+				PRODUCT_MODULE_NAME = AYPaging;
+				PRODUCT_NAME = AYPaging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C54D0264557E65E84A8BEC95311B4FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7900F6BC68B83A733D1C5DC22297374A /* Pods-AYPaging_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYPaging_Tests/Pods-AYPaging_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYPaging_Tests/Pods-AYPaging_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9057A4E58199BC576699A0477B47F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF62FE93F7060A5DE8D90BC6DE48558D /* Pods-AYPaging_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYPaging_Tests/Pods-AYPaging_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYPaging_Tests/Pods-AYPaging_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAEDD664D2DD9B9E9D496D49D8F6E23 /* Build configuration list for PBXNativeTarget "Pods-AYPaging_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9057A4E58199BC576699A0477B47F74 /* Debug */,
+				C54D0264557E65E84A8BEC95311B4FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A79DE21FDB384244CD443BA094F1A0 /* Build configuration list for PBXNativeTarget "Pods-AYPaging_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A58C88F1E7CB52198AD84F026219C71 /* Debug */,
+				4114EB45AD4E4EAEF8C03DBDC1417158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80384D68806132D9CF1F1F279999FBA1 /* Build configuration list for PBXNativeTarget "AYPaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7384D74D36752E897A111508278B68 /* Debug */,
+				C5233A12B8910AF76145BBD31DF5D32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

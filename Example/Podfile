@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AYPaging_Example' do
+  pod 'AYPaging', :path => '../'
+
+  target 'AYPaging_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
