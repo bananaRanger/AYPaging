@@ -25,26 +25,33 @@ import UIKit
 //MARK: - AYPagingView class
 open class AYPagingView: UIView {
   //MARK: properties
+  
+  /// Numbers of displaying items
   public var count: Int = 1 {
     didSet { updateLayers() }
   }
 
+  /// Horizontal spacing
   public var hSpacing: CGFloat = 8 {
     didSet { updateLayers() }
   }
   
+  /// Vertical spacing
   public var vSpacing: CGFloat = 0 {
     didSet { updateLayers() }
   }
 
+  /// Selected item color
   public var selectedColor: UIColor = .white {
     didSet { updateLayers() }
   }
   
+  /// Items color
   public var color: UIColor = .lightGray {
     didSet { updateLayers() }
   }
     
+  /// Index of selected item
   public var selected: Int = 0 {
     didSet {
       if selected >= count { selected = 0 }
@@ -53,15 +60,21 @@ open class AYPagingView: UIView {
     }
   }
   
+  /// Is items represent as circles (true) or as stripes (false)
   public var isCircles: Bool = false {
     didSet { updateLayers() }
   }
   
+  /// Duration of changing color animation
   public var fillingAnimationDuration: TimeInterval = 0
+  
+  /// Duration of scaling color animation
   public var scalingAnimationDuration: TimeInterval = 0
 
+  /// Scaling animation multiplier
   public var scalingAnimationFactor: CGFloat = 1
   
+  /// Corner radius multiplier
   public var cornerRadiusFactor: CGFloat = 0
 
   private var minItemHeight: CGFloat = 1
@@ -75,11 +88,13 @@ open class AYPagingView: UIView {
     updateLayers()
   }
   
-  public func prev() {
+  /// Go to the previous item
+  public func prevItem() {
     selected -= 1
   }
   
-  public func next() {
+  /// Go to the next item
+  public func nextItem() {
     selected += 1
   }
 }
@@ -111,7 +126,7 @@ fileprivate extension AYPagingView {
 }
 
 //MARK: - AYPagingView layers types fileprivate extension
-fileprivate extension AYPagingView {  
+fileprivate extension AYPagingView {
   func stripesLayers() -> [CALayer] {
     var layers = [CALayer]()
     
