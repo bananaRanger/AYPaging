@@ -60,8 +60,8 @@ extension ViewController {
   @IBAction func btnNextActionTouchUpInside(sender: UIButton) {
     let increasedIndex = selectedCardIndex + 1
     selectedCardIndex = increasedIndex >= cards.count ? 0 : increasedIndex
-    stripesPagingView.next()
-    circlesPagingView.next()
+    stripesPagingView.nextItem()
+    circlesPagingView.nextItem()
     reloadData()
   }
 }

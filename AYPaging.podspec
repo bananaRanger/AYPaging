@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AYPaging'
   s.version          = '1.0.0'
-  s.summary          = 'AYPagingView - is a view that displays a horizontal series of stripes or dots, each of which corresponds to a page in the app’s document or other data-model entity.'
+  s.summary          = 'AYPagingView - is a view that displays a horizontal series of stripes or dots.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 Customizable view with set of stripes or dots that inform user about current page, selected model, etc.
+You can use it, for example, in your onboarding screens, screens collection items, etc.
                        DESC
 
   s.homepage         = 'https://github.com/bananaRanger/AYPaging'
