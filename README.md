@@ -30,7 +30,7 @@ end
 ### Demo
 
 <p align="center">
-  <img width="32%" height="32%" src="https://github.com/bananaRanger/AYPaging/blob/master/Resources/demo.mov?raw=true">
+  <img width="32%" height="32%" src="https://github.com/bananaRanger/AYPaging/blob/master/Resources/demo.gif?raw=true">
 </p>
 
 ## Usage
