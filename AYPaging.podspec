@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AYPaging'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'AYPagingView - is a view that displays a horizontal series of stripes or dots.'
 
 # This description is used to generate tags and improve search results.
@@ -25,6 +25,7 @@ You can use it, for example, in your onboarding screens, screens collection item
   s.homepage         = 'https://github.com/bananaRanger/AYPaging'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.changelog	     = 'https://raw.githubusercontent.com/IlyaUA/CocoSuperApp/main/CHANGELOG.md'
   s.author           = { 'Anton Yereshchenko' => 'antonyereshchenko@gmail.com' }
   s.source           = { :git => 'https://github.com/bananaRanger/AYPaging.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
