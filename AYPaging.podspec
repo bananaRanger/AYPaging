@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AYPaging'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'AYPagingView - is a view that displays a horizontal series of stripes or dots.'
 
 # This description is used to generate tags and improve search results.
